@@ -39,6 +39,8 @@ module.exports = {
         extensions: ["", ".js", ".jsx"],
     },
     plugins: [
+        // Optimize output by uncommenting the next line.
+        // new webpack.optimize.UglifyJsPlugin(),
         new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
         new ExtractTextPlugin("css/site.css?[hash]"),
         new HtmlWebpackPlugin({

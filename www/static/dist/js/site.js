@@ -56,7 +56,7 @@
 
 	var Timer = __webpack_require__(271);
 
-	var Countdown = __webpack_require__(273);
+	var Countdown = __webpack_require__(272);
 
 	window.homepage = function () {
 	    React.render(React.createElement(Timer, null), document.getElementById("timer"));
@@ -29491,8 +29491,7 @@
 	});
 
 /***/ },
-/* 272 */,
-/* 273 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
